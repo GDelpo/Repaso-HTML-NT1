@@ -1,0 +1,101 @@
+/* style.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  background: rgb(245, 245, 245);
+
+  color: green;
+
+  font-size: 25px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+
+  color: red;
+
+  font-weight: 500;
+
+  font-size: 10px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+
+  color: pink;
+
+  font-weight: 400;
+
+  font-size: 8px;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+
+  color: purple;
+}
+
+#banner {
+  text-align: center;
+
+  background-image: url("https://images.pexels.com/photos/1473673/pexels-photo-1473673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+  background-size: cover;
+
+  padding: 150px;
+
+  color: white;
+
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: white;
+
+  font-size: 50px;
+}
+
+#banner p {
+  color: white;
+
+  opacity: 0.8;
+
+  font-size: 30px;
+
+  font-weight: 400;
+}
+
+#banner a {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#footer {
+  padding: 30px;
+
+  background: rgb(30, 30, 30);
+
+  color: lightgrey;
+}
+
+.tarjeta {
+  padding: 50px;
+
+  font-weight: lighter;
+}
+
+#footer a {
+  color: lightgrey;
+
+  font-size: 25px;
+}
+
+#footer a:hover {
+  color: white;
+}
